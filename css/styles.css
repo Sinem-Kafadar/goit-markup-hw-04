@@ -388,16 +388,16 @@ ul,ol {
   padding:0 156px;
 }
 
+
 .section {
  padding: 120px 0;
 }
 
 
-.sosyal medya {
+.sosyal-medya {
   display:flex;
   gap:24px;
-  margin-top: 10px;
-}
+  }
 
 .sosyal-medya .sosyal-medya-item {
   list-style-type: none;
@@ -422,26 +422,15 @@ ul,ol {
 }
 
 .sosyal-medya .sosyal-medya-items-footer:hover {
-  background-color: mediumseagreen;
+  background-color: #31D0AA;
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   /* Geçiş efekti */
 }
-.sosyal-medya .sosyal-medya-items .icon-linkedin {
-  width: 16px;
-  height: 16px;
-}
 
-.sosyal-medya .sosyal-medya-item-twitter {
-  width:16px;
-  height:16px;
-}
-
-.sosyal-medya .sosyal-medya-items .icon-facebook {
-  width: 16px;
-  height: 16px;
-}
-
-.sosyal-medya .sosyal-medya-items .icon-instagram {
+.icon-twitter,
+.icon-facebook,
+.icon-instagram,
+.icon-linkedin {
   width: 16px;
   height: 16px;
 }
