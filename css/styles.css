@@ -270,11 +270,11 @@ ul,ol {
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  margin-left: 40px;
 }
 
 .footer-social-title {
   color: #ffffff;
+  display: flexbox;
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 12px;
@@ -310,17 +310,12 @@ ul,ol {
   border-radius: 2px;
   margin-top: 20px;
 }
-.footer-icon {
+
+.footer-social {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 16px;
-}
-.footer-social {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  margin: 100px 692px 132px 0px;
 }
 
 .logo-studio-footer {
