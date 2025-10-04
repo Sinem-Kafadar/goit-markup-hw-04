@@ -2,6 +2,10 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
 }
 *:hover{
   transition-duration: 250ms;
@@ -105,7 +109,7 @@ ul,ol {
   line-height: 21px;
   color: #2E2F42;
   text-transform: uppercase;
-  letter-spacing: 3PX;
+  letter-spacing: 3px;
   text-decoration: none;
 }
 
@@ -371,7 +375,7 @@ ul,ol {
   justify-content: center;
   align-content: center;
   font-family: "Roboto", sans-serif;
-  text-align: left;
+  text-align: center;
 }
 
 .iconlarim-main {
@@ -383,14 +387,13 @@ ul,ol {
   padding:0 156px;
 }
 
-
 .section {
  padding: 120px 0;
 }
 
-
 .sosyal-medya {
   display:flex;
+  justify-content: center;
   gap:24px;
   }
 
@@ -600,7 +603,8 @@ ul,ol {
   letter-spacing: 0.03em;
 }
 
-.copyright-text {
+.copyright-text,
+.overlay-text {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 1.5;
@@ -639,6 +643,7 @@ ul,ol {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  padding-top: 24px;
 }
 .portfolio-box {
   overflow: hidden;
@@ -680,7 +685,7 @@ ul,ol {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin: 32px;
+  margin: 32px 0;
   text-align: center;
 }
 
