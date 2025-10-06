@@ -98,7 +98,7 @@ ul,ol {
   line-height: 21px;
   color: #4D5AE5;
   text-transform: uppercase;
-  letter-spacing: 3PX;
+  letter-spacing: 3px;
   text-decoration: none;
 }
 
@@ -283,6 +283,7 @@ ul,ol {
   font-weight: 500;
   margin-bottom: 12px;
 }
+
 .footer-social-text {
   color: #ffffff;
   font-weight: 500;
@@ -329,7 +330,7 @@ ul,ol {
   line-height: 21px;
   color: #f4f4fd;
   text-transform: uppercase;
-  letter-spacing: 3PX;
+  letter-spacing: 3px;
   text-decoration: none;
 }
 
@@ -340,8 +341,8 @@ ul,ol {
   font-weight: 300;
   letter-spacing: 2%;
   line-height: 24px;
-
 }
+
 .icon-clock,.icon-antenna,.icon-astronaut,.icon-diagram {
   width: 64px;
   height: 64px;
