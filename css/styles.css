@@ -703,9 +703,12 @@ ul,ol {
 
 .footer-container {
   display: flex;
-  flex-direction: column;
-  gap: 16px;
-  padding: 100px 1020px 100px 156px;
+  gap: 120px;
+  padding: 100px 0 100px 156px;
+}
+
+.footer-about {
+  width: 264px;
 }
 
 .container {
